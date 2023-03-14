@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+html body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  background-color: #fafafa;
+  height: 100%;
+  position: relative;
+  color: #000;
+}
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+body.show:after {
+  opacity: 0.9;
+  z-index: 99999;
+}
+body .container {
+  width: 100%;
+}
+
+/*********************  Default-CSS  *********************/
+
+input[type="file"]::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+input[type="file"]::-moz-file-upload-button {
+  cursor: pointer;
+}
+
+input[type="file"]::-ms-file-upload-button {
+  cursor: pointer;
+}
+
+input[type="file"]::-o-file-upload-button {
+  cursor: pointer;
+}
+
+input[type="file"],
+a[href],
+input[type="submit"],
+input[type="button"],
+input[type="image"],
+label[for],
+select,
+button,
+.pointer {
+  cursor: pointer;
+}
+
+::-moz-focus-inner {
+  border: 0px solid transparent;
+}
+
+::-webkit-focus-inner {
+  border: 0px solid transparent;
+}
+
+*::-moz-selection {
+  color: #fff;
+  background: #000;
+}
+
+*::-webkit-selection {
+  color: #fff;
+  background: #000;
+}
+
+*::-webkit-input-placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+a,
+span,
+div a:hover,
+div a:active,
+button {
+  text-decoration: none;
+}
+
+*::after,
+*::before,
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.no-list li,
+.no-list ul,
+.no-list ol,
+footer li,
+footer ul,
+footer ol,
+header li,
+header ul,
+header ol {
+  list-style: inside none none;
+}
+
+.no-list ul,
+.no-list ol,
+footer ul,
+footer ol,
+header ul,
+header ol {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  outline: none;
+  color: #555;
+}
+
+a:hover {
+  color: #000;
+}
+
+body .clearfix,
+body .clear {
+  clear: both;
+  line-height: 100%;
+}
+
+body .clearfix {
+  height: auto;
+}
+
+* {
+  outline: none !important;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul:after,
+li:after,
+.clr:after,
+.clearfix:after,
+.container:after,
+.grve-container:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+div input,
+div select,
+div textarea,
+div button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 120%;
+  color: #333;
+  font-weight: bold;
+  margin: 0 0 15px;
+}
+
+body h1:last-child,
+body h2:last-child,
+body h3:last-child,
+body h4:last-child,
+body h5:last-child,
+body h6:last-child {
+  margin-bottom: 0;
+}
+
+.btn-border-green {
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #25B4A1;
+  color: #25B4A1;
+  border-radius: 7rem;
+  padding: 8px 22px;
+  transition: all 0.5s;
+}
+
+.btn-border-green:hover {
+  background: #25B4A1;
+  color: #fff;
+}
+
+.btn-green {
+  background: #25B4A1;
+  color: #fff;
+  border-radius: 7rem;
+  padding: 8px 22px;
+  border: 1px solid #25B4A1;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+.btn-green:hover {
+  background: #fff;
+  color: #25B4A1;
+  border-color: #25B4A1;
+}
+.btn-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  gap: 5px;
+}
+
+.btn-icon span{
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-icon span svg {
+  width: 100%;
+  height: 100%;
+}

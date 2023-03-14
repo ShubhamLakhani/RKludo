@@ -1,0 +1,36 @@
+.MainBannerBody {
+    position: absolute;
+    top: 50%;
+    width: calc(100% - 480px);
+    transform: translateY(-50%);
+    right: 0;
+    text-align: center;
+    padding: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../../../public/image/BodyBanner.jpg');
+}
+
+.MainBannerBodyLogo {
+    width: 370px;
+    margin: auto auto 30px;
+}
+
+.MainBannerBodyLogo img {
+    width: 100%;
+}
+
+.MainBannerBody h1 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: auto;
+}
+
+.MainBannerBody h6 {
+    font-size: 28px;
+    font-weight: 500;
+}

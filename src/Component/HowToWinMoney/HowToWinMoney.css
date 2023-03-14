@@ -1,0 +1,84 @@
+.LudoTab {
+    justify-content: center;
+    background: #fff;
+    width: max-content;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.LudoTab .nav-link.active, .LudoTab .show>.nav-link {
+    background: #009d89;
+}
+
+.LudoTab .nav-link {
+    color: #009d89;
+}
+
+.HowToWinMoneybanner {
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    width: calc(100% - 15px);
+    bottom: 0;
+    padding: 20px;
+    transform: translateX(-480px);
+    transition: all 0.5s;
+}
+.MobilePopup.show .HowToWinMoneybanner {
+    transform: translateX(0);
+    box-shadow: -2px -14px 20px 0px #000;
+}
+
+.YtLink {
+    width: 100%;
+    height: 210px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.YtLink iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.VideoHelp p {
+    border: 1px solid #fff4;
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4rem;
+    margin: 0;
+}
+
+.VideoHelp {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.VideoHelp span {
+    width: max-content;
+    background: #000;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    padding: 0 8px;
+    margin-left: 25px;
+    margin-bottom: -10px;
+    color: #fff;
+    gap: 6px;
+    z-index: 9;
+    position: relative;
+}
+
+.HowToWinMoneybanner h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 19px;
+    border-bottom: 1px solid #0002;
+    padding-bottom: 15px;
+}

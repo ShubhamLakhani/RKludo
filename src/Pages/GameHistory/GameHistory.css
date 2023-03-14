@@ -1,0 +1,84 @@
+.GameHistoryItem {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    border-bottom: 1px solid #fff4;
+    padding-bottom: 15px;
+}
+
+.GameHistoryTime {
+    width: 50px;
+    min-width: 50px;
+    text-align: center;
+}
+
+.GameHistoryTime h6 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.GameHistoryTime small {
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    display: block;
+    opacity: 0.8;
+}
+
+.GameHistoryInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.GameHistoryInfo span {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+}
+
+.GameHistoryInfo span img {width: 100%;height: 100%;}
+
+.GameHistoryInfo h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.GameHistoryInfo h6 small {
+    font-size: 12px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.GameHistoryCash p {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 500;
+}
+
+.GameHistoryCash small {
+    font-size: 10px;
+    color: #fff;
+    display: block;
+    text-align: end;
+    opacity: 0.8;
+    font-weight: 100;
+}
+
+.GameHistoryCash {
+    min-width: 90px;
+}
+
+.GameHistoryCash p svg {
+    font-size: 20px;
+    margin-right: 5px;
+}

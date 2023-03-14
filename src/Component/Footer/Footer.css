@@ -1,0 +1,87 @@
+.FooterInfo {
+    position: relative;
+}
+
+.FooterInfo a {
+    max-width: 240px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.FooterInfo a img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.FooterInfo p {
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 250px;
+}
+
+.FooterWrap {
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+
+.Footer-50 {
+    margin-top: 30px;
+}
+
+.Footer-50 h6 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.Footer-50 ul li a {
+    font-size: 14px;
+    display: block;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+footer h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.CopyRightWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CopyRightWrap p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.CopyRightWrap ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+footer {
+    border-top: 1px solid #0001;
+    padding: 60px 0 20px;
+}
+.DownloadApkBtn {
+    display: block;
+    max-width: 150px;
+    width: 100%;
+}
+
+.DownloadApkBtn img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,48 @@
+.SideMenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #fff;
+    padding: 90px 15px 15px;
+    margin: 0;
+    height: 100vh;
+    overflow: auto;
+    max-width: 100%;
+    width: 100%;
+    list-style: none;
+    transform: translateX(-100%);
+    transition: all 0.5s;
+}
+
+.SideMenu a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    transition: all 0.5s;
+    border-top: 1px solid #0001;
+    padding: 20px 0;
+}
+
+.SideMenu a span {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SideMenu a span svg {
+    width: 100%;
+    height: 100%;
+}
+
+.SideMenu a:hover {
+    color: #24af9d;
+    transition: all 0.5s;
+}
+
+.MainScreen.show .SideMenu {transform: translateX(0);}

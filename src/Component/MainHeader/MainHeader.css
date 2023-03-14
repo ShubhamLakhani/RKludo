@@ -1,0 +1,20 @@
+.moneyWrap {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 10px;
+}
+
+.EarnMoney {
+    background: #22b3a0;
+}
+
+.EarnMoney h6 {
+    color: #fff;
+}
+.HeaderLoginWrap {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 10px;
+}

@@ -1,0 +1,77 @@
+.HproductCard {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 95px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 15px;
+    display: block;
+}
+.HproductCardImg {
+    width: 100%;
+    height: 240px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.HproductCardImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.HproductCardInfo {
+    padding-top: 15px;
+}
+
+.HproductCardInfo h6 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.HproductCardInfo h6 span {
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+
+.HproductCardInfo h6 span img {
+    width: 100%;
+    height: 100%;
+}
+
+.HproductCardInfo p {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 0 !important;
+    font-weight: 500;color: #000 !important;
+}
+
+.HproductCardInfo p span {
+    width: 12px;
+    height: 12px;
+    display: block;
+    background: #2FC317;
+    border-radius: 100%;
+    margin-right: 8px;
+}
+.HproductCardInfo p span.red{
+    background-color: #FF0000;
+}
+
+.slick-center {
+    transform: scale(1.2);
+    padding: 70px 35px !important;
+}
+.slick-initialized .slick-slide {
+    padding: 70px 10px;
+}
+
+.slick-slider.center {
+    z-index: 99999;
+    margin-top: -420px;
+    overflow-x: hidden;
+}

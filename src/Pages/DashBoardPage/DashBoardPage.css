@@ -1,0 +1,205 @@
+.MainScreen {
+    height: 100vh;
+    overflow: auto;
+    max-width: 480px;
+    /* margin: 0 auto; */
+    background: #000;
+    padding: 15px;
+    position: relative;
+}
+
+.MainScreenHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    z-index: 9999;
+}
+
+
+.LogoIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.LogoIcon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.AddMoney {
+    display: flex;
+    background: #fff;
+    margin-left: auto;
+    border-radius: 4rem;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 10px;
+}
+
+.AddMoney span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.AddMoney h6 {
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0 11px;
+}
+
+.AddMoney h6 small {
+    display: block;
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: -3px;
+}
+
+.AddMoney i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+    background: #e7e7e7;
+    justify-content: center;
+    font-size: 22px;
+    color: #1f7c6f;
+}
+.MainScreen hr {
+    border-color: #fff;
+}
+
+.DashboardMain h4 {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.GameCard {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 0 30px 0px;
+}
+
+.GameCard .HproductCardImg {
+    border-radius: 6px;
+    height: 120px;
+}
+.DashboardMain p {
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.VideoHelp p {
+    border: 1px solid #fff4;
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4rem;
+    margin: 0;
+}
+
+.VideoHelp {
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.VideoHelp span {
+    width: max-content;
+    background: #000;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    padding: 0 8px;
+    margin-left: 25px;
+    margin-bottom: -10px;
+    color: #fff;
+    gap: 6px;
+    z-index: 9;
+    position: relative;
+}
+
+.RkLuDoInfo h6 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.RkLuDoInfo p {
+    font-size: 13px;
+    color: #ffffffb7;
+}
+
+.RkLuDoInfo p a {
+    color: #25b4a1;
+}
+
+.TermsAccordion button {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: none !important;
+}
+
+.TermsAccordion button span {
+    max-width: 140px;
+    display: block;
+}
+
+.TermsAccordion button span img {
+    width: 100%;
+    height: 100%;
+}
+
+.TermsAccordion button i {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.TermsAccordion button[aria-expanded="true"] i {
+    display: none;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    background: transparent;
+}
+
+.TermSLinkWrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.TermSLinkWrap li {
+    width: calc(50% - 10px);
+}
+
+.accordion-body {
+    border-top: 1px solid #0002;
+}
+
+.TermSLinkWrap li a {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.TermSLinkWrap li a:hover {
+    color: #25b4a1;
+}

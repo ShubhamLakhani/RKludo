@@ -1,0 +1,96 @@
+.btn-white {
+    background: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 4rem;
+    color: #000;
+}
+
+.HistoryBox {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 13px;
+    margin-bottom: 20px;
+}
+
+.HistoryBox svg {
+    font-size: 23px;
+}
+
+.btn-white:hover {
+    background: #fff;
+    color: #000;
+}
+
+.WalletCard {
+    padding: 40px 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.BlueCard {
+    background: #267a6d;
+}
+
+.WalletCardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.WalletCardHeader h6 {
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.WalletCardHeader h6 span {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+
+.WalletCard p {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+
+.WalletCard::after {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -40px;
+    width: 130px;
+    height: 130px;
+    background: #fff;
+    opacity: 0.1;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.WalletCard::before {
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    right: -60px;
+    width: 180px;
+    height: 180px;
+    background: #fff;
+    opacity: 0.1;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.LightBlueCard {
+    background: #1c9e8e;
+}

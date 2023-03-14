@@ -1,0 +1,31 @@
+.navbar-brand {
+    max-width: 220px;
+    display: block;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.navbar-nav a {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    margin: 0 2rem;
+    text-align: center;
+}
+
+.navbar-nav a:hover,
+.navbar-nav a.active {
+    color: #25b4a1;
+    font-weight: 600;
+}
+
+.HeaderBtnWrap {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

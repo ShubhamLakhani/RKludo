@@ -1,0 +1,70 @@
+.customPriceBox {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.customPriceBox input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.customPriceBox p {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.customPriceBox input:checked + p {
+    background: #24af9d;
+    color: #fff;
+}
+
+.AddCashBody h4 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.AddCashBody .form-label {
+    color: #FFF;
+}
+
+.form-text {
+    color: #fff;
+    opacity: 0.7;
+}
+.CashbackBox {
+    border-radius: 15px;
+    padding: 20px;
+    background: #fff2;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.CashbackBox h6 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.CashbackBox p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.CashbackBox ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+    color: #fff;
+}
+
+.CashbackBox ul li {
+    font-size: 12px;
+}

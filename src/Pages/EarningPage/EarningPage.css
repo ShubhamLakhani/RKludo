@@ -1,0 +1,26 @@
+.EarningPageBody h6 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.EarningPageBody p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.EarningPageBody label {
+    color: #fff;
+}
+.alert.alert-danger {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.alert.alert-danger svg {
+    font-size: 22px;
+}

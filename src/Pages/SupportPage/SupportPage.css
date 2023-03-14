@@ -1,0 +1,47 @@
+.SupportBody {
+    width: 100%;
+    text-align: center;
+}
+
+.SupportBody img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.SupportBody h6 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 2;
+}
+
+.BtnWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.BtnWrap a {
+    width: calc(50% - 8px);
+}
+.Btn-White {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    width: 50%;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.Btn-White svg {
+    font-size: 20px;
+}
+
+.Btn-White:hover {
+    background: #fff;
+}
